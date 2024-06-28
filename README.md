@@ -25,21 +25,21 @@ This project implements a Django REST API for managing users, clients, and proje
    pip install -r requirements.txt
 
 3.Configure the database:
+   ```sh
    Update the DATABASES setting in settings.py to point to your PostgreSQL database. 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'database_name',
-        'USER': 'username',
-        'PASSWORD': 'your_password',
-        'HOST': 'localhost',
-        'PORT': '5432',
-    }
-}
-
+      DATABASES = {
+          'default': {
+              'ENGINE': 'django.db.backends.postgresql',
+              'NAME': 'database_name',
+              'USER': 'username',
+              'PASSWORD': 'your_password',
+              'HOST': 'localhost',
+              'PORT': '5432',
+          }
+      }
+   
 
 4.Apply Migrations:
-   '''sh
    python manage.py makemigrations
    python manage.py migrate
 
