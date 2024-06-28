@@ -53,15 +53,11 @@ This project implements a Django REST API for managing users, clients, and proje
 7. Testing
 I have tested the API 
 a. list of all clients.
-   ```sh
-
    ![Screenshot 2024-06-28 133623](https://github.com/deadpool3v/nimap_project/assets/141556250/9689214d-c124-4b4c-aa0d-911469253f92)
 
 b. Creating a new client.
-   ```sh
     ![Screenshot 2024-06-28 134401](https://github.com/deadpool3v/nimap_project/assets/141556250/f27eaeb9-0941-4c60-ac7f-dc247e2dbb5f)
 
 c. List of all projevts assigned to the logged-in user.
-   ```sh
 ![Screenshot 2024-06-28 131727](https://github.com/deadpool3v/nimap_project/assets/141556250/dba16ba8-25e5-4050-b511-54311a6bf47a)
 
