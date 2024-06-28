@@ -50,8 +50,7 @@ This project implements a Django REST API for managing users, clients, and proje
 6. **python manage.py runserver**
 
 
-7. Testing
-I have tested the API 
+7. **Testing** 
 a. list of all clients.
    ![Screenshot 2024-06-28 133623](https://github.com/deadpool3v/nimap_project/assets/141556250/9689214d-c124-4b4c-aa0d-911469253f92)
 
