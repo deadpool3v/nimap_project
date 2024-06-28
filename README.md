@@ -55,8 +55,8 @@ This project implements a Django REST API for managing users, clients, and proje
    a. list of all clients.
 ![Screenshot 2024-06-28 133623](https://github.com/deadpool3v/nimap_project/assets/141556250/9689214d-c124-4b4c-aa0d-911469253f92)
 
-   ```sh
-   b. Creating a new client.
+
+b. Creating a new client.
 ![Screenshot 2024-06-28 134401](https://github.com/deadpool3v/nimap_project/assets/141556250/f27eaeb9-0941-4c60-ac7f-dc247e2dbb5f)
 
 c. List of all projevts assigned to the logged-in user.
