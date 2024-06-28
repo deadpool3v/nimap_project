@@ -12,7 +12,8 @@ This project implements a Django REST API for managing users, clients, and proje
 
 ## Read Instructions
 
-1. Clone the repository:
+1. **Clone the repository:**
+   ```sh
    git clone https://github.com/deadpool3v/nimap_project.git
    cd nimap_project
 
