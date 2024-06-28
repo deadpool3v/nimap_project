@@ -18,28 +18,30 @@ This project implements a Django REST API for managing users, clients, and proje
    cd nimap_project
 
 2. Navigate to machine_test directiory & setup the python env:
+   ```sh
    python3 -m venv nimap_venv
    On Windows use `.\nimap_venv\Scripts\activate`
    cd machine_test
    pip install -r requirements.txt
 
 3.Configure the database:
-Update the DATABASES setting in settings.py to point to your PostgreSQL database. 
-
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'database_name',
-        'USER': 'username',
-        'PASSWORD': 'your_password',
-        'HOST': 'localhost',
-        'PORT': '5432',
-    }
-}
+   ```sh
+   Update the DATABASES setting in settings.py to point to your PostgreSQL database. 
+   DATABASES = {
+       'default': {
+           'ENGINE': 'django.db.backends.postgresql',
+           'NAME': 'database_name',
+           'USER': 'username',
+           'PASSWORD': 'your_password',
+           'HOST': 'localhost',
+           'PORT': '5432',
+       }
+   }
 
 4.Apply Migrations:
-python manage.py makemigrations
-python manage.py migrate
+   ```sh
+   python manage.py makemigrations
+   python manage.py migrate
 
 5.Create a superuser (admin)
 
