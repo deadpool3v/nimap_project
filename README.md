@@ -25,7 +25,6 @@ This project implements a Django REST API for managing users, clients, and proje
    pip install -r requirements.txt
 
 3.Configure the database:
-   ```sh
    Update the DATABASES setting in settings.py to point to your PostgreSQL database. 
    DATABASES = {
        'default': {
@@ -39,7 +38,6 @@ This project implements a Django REST API for managing users, clients, and proje
    }
 
 4.Apply Migrations:
-   ```sh
    python manage.py makemigrations
    python manage.py migrate
 
